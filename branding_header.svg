@@ -1,0 +1,37 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2D333B" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3FB950" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#3FB950" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3FB950" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#0D1117"/>
+  <rect width="800" height="200" fill="url(#grid)"/>
+
+  <!-- Scanning Line Animation -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="url(#glow)" stroke-width="2">
+    <animate attributeName="y1" values="0;200;0" dur="8s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="0;200;0" dur="8s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Title Text -->
+  <text x="400" y="90" font-family="monospace" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold" letter-spacing="4">
+    COLEMAN WILLIS
+  </text>
+  <text x="400" y="125" font-family="monospace" font-size="14" fill="#8B949E" text-anchor="middle" letter-spacing="2">
+    SENIOR SYSTEMS ARCHITECT // MISSION ASSURANCE
+  </text>
+
+  <!-- Status indicators -->
+  <circle cx="360" cy="150" r="4" fill="#3FB950">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="375" y="155" font-family="monospace" font-size="10" fill="#3FB950" font-weight="bold">SYSTEM STATUS: OPTIMAL</text>
+  
+  <rect x="350" y="140" width="130" height="20" rx="4" stroke="#3FB950" stroke-width="1" fill="none" opacity="0.3"/>
+</svg>
