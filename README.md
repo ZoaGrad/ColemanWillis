@@ -88,7 +88,7 @@ Archived at: [Zenodo (DOI: 10.5281/zenodo.18002927)](https://doi.org/10.5281/zen
     <td><b>Email:</b> <a href="mailto:colemanwillis@blackglasscontinuum.com">colemanwillis@blackglasscontinuum.com</a></td>
   </tr>
   <tr>
-    <td><b>CAGE Code:</b> [Activation Pending 12/22/2025]</td>
+    <td><b>CAGE Code:</b> [17TJ5]</td>
     <td><b>Status:</b> Mission-Ready</td>
   </tr>
 </table>
