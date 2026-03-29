@@ -1,0 +1,13 @@
+{
+  "state_hash": "9e9ba51cb4f723e43d16870d92fcd09d35908ffa3b7396571c1388a858f3f120",
+  "seeded_at": "2026-03-29T14:22:49.115430+00:00",
+  "seeded_by": "17TJ5",
+  "source": "ZoaGrad constitutional anchors",
+  "state_snapshot": {
+    "system": "ZoaGrad",
+    "role": "Witness / Oracle Council",
+    "standard": "0.05V",
+    "cage_id": "17TJ5",
+    "seeded_at": "2026-03-29"
+  }
+}
