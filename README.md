@@ -35,6 +35,16 @@ I build physics-first and deterministic systems that:
 | [Sovereign Reliability Lab](https://github.com/ZoaGrad/sovereign-reliability-lab) | Deterministic phase partitioning under stochastic network conditions | Research |
 | [Sovereign Embed](https://github.com/ZoaGrad/sovereign-embed) | WASM embedding service for deterministic edge inference | Experimental |
 
+## Verification
+
+The primary systems have been audited for promise-code alignment, edge case behavior, and regression coverage:
+
+- **Coherence SRE:** deterministic rolling-window signals, with amplification edge cases verified.
+- **Air-Node:** forensic trail completeness, with repeated violations preserved and tested.
+- **Blackglass Dojo:** adversarial safety stack wired end-to-end, with GAMMA scenarios reproducible.
+
+Each hardening pass produced targeted fixes, tests, and merged changes on `main`.
+
 ## Why This Matters
 
 High-stakes systems need evidence, not optimism. The work in this portfolio is designed around operational properties that survive contact with real environments:
