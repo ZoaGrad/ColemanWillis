@@ -1,109 +1,56 @@
 <p align="center">
-  <img src="branding_header.svg" width="800" alt="Coleman Willis - Senior Systems Architect">
+  <img src="branding_header.svg" width="800" alt="Coleman Willis - Systems Architect">
 </p>
 
-<p align="center">
-  <b>Dedicated to the engineering of high-resiliency infrastructure and the liquidation of technical debt in mission-critical environments.</b><br>
-  <i>Specialist in variance-based anomaly detection, NIST compliance, and zero-trust container orchestration.</i>
-</p>
+# ZoaGrad - Systems Architect
 
----
+Building deterministic systems for high-stakes environments where "it works most of the time" is not an acceptable operating model.
 
-### 🛡️ Technical Core
+I work at the intersection of reliability engineering, runtime assurance, AI safety, and distributed systems. The common thread is simple: make fragile systems observable, auditable, and constrained by explicit mechanics instead of vibes.
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h4>Mission Assurance</h4>
-      <ul>
-        <li>NIST SP 800-190</li>
-        <li>NIST SP 800-207</li>
-        <li>RMF Alignment</li>
-        <li>Security Hardening</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Reliability Engineering</h4>
-      <ul>
-        <li>Signal Filtering</li>
-        <li>ARCR Framework</li>
-        <li>SLO/SLA Optimization</li>
-        <li>Root Cause Analysis</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Cloud Native</h4>
-      <ul>
-        <li>Docker Sidecars</li>
-        <li>K8s Orchestration</li>
-        <li>Air-Gapped Ops</li>
-        <li>Zero-Trust Mesh</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+## The Problem
 
----
+Modern AI and distributed systems are powerful, but they are often opaque and operationally brittle:
 
-### 🚀 Featured Project: Coherence SRE
+- Observability stacks depend on trained models that can misclassify or hallucinate.
+- Recovery paths are too often "restart and hope."
+- Audit trails are bolted on after the fact.
+- Compliance evidence is difficult to reproduce under stress.
 
-> **A deterministic SRE sentinel designed for predictive failure detection in contested environments.**
+## The Approach
 
-```yaml
-system: "Coherence SRE"
-status: "v1.0.0 Obsidian (Industrial Grade)"
-provenance: "DOI 10.5281/zenodo.18002927"
-integrity: "GPG-Signed Artifact"
-security: "Supply Chain Verified"
-```
+I build physics-first and deterministic systems that:
 
-<details>
-<summary><b>View System Architecture Diagram</b></summary>
+1. Replace guesswork with mathematics: variance detection, second-order signals, and finite-state correctness.
+2. Make failure visible: forensic recording, transition validation, and replayable incident evidence.
+3. Preserve sovereignty: read-only observation, minimal privileges, and air-gap compatible deployment models.
 
-```mermaid
-graph TD
-    A[Tactical Edge] --> B{Coherence Sentinel}
-    B -->|Variance Detection| C[Root Cause Remediation]
-    B -->|Signal Filtering| D[Mission Assurance Dashboard]
-    C -->|Feedback Loop| A
-    D -->|SLO/SLA Monitoring| E[Strategic Intelligence]
-```
+## Active Portfolio
 
-</details>
+| System | Role | Status |
+| --- | --- | --- |
+| [Coherence SRE](https://github.com/ZoaGrad/coherence-sre) | Variance-based anomaly detection for mission-critical infrastructure | v1.0.0, DOI: [10.5281/zenodo.18002927](https://doi.org/10.5281/zenodo.18002927) |
+| [Air-Node](https://github.com/ZoaGrad/air-node) | Finite-state agent validation and forensic incident recording | Prototype |
+| [Blackglass Dojo](https://github.com/ZoaGrad/blackglass-dojo) | Adversarial safety testing for AI systems and guardrail failure modes | Active |
+| [Sovereign Reliability Lab](https://github.com/ZoaGrad/sovereign-reliability-lab) | Deterministic phase partitioning under stochastic network conditions | Research |
+| [Sovereign Embed](https://github.com/ZoaGrad/sovereign-embed) | WASM embedding service for deterministic edge inference | Experimental |
 
----
+## Why This Matters
 
-### 🔬 Research & Provenance
+High-stakes systems need evidence, not optimism. The work in this portfolio is designed around operational properties that survive contact with real environments:
 
-**Technical Brief:** *“Coherence SRE: A Derivative-Based Anomaly Detection Framework for Mission Assurance”*
-Archived at: [Zenodo (DOI: 10.5281/zenodo.18002927)](https://doi.org/10.5281/zenodo.18002927)
+- Compliance-ready: NIST-aligned design language, deterministic behavior, and deployability in constrained environments.
+- Auditable: systems produce forensic records and avoid black-box decision paths.
+- Low-risk integration: read-only sidecars and minimal privileged access wherever possible.
+- Practical resilience: signals are designed for operators who need to detect drift before it becomes an outage.
 
----
+## Research & Provenance
 
-### 📡 Contact / Sovereignty
+**Coherence SRE: A Derivative-Based Anomaly Detection Framework for Mission Assurance**  
+Archived at [Zenodo, DOI: 10.5281/zenodo.18002927](https://doi.org/10.5281/zenodo.18002927).
 
-<table width="100%">
-  <tr>
-    <td><b>Location:</b> Aurora, CO</td>
-    <td><b>Email:</b> <a href="mailto:colemanwillis@blackglasscontinuum.com">colemanwillis@blackglasscontinuum.com</a></td>
-  </tr>
-  <tr>
-    <td><b>CAGE Code:</b> [17TJ5]</td>
-    <td><b>Status:</b> Mission-Ready</td>
-  </tr>
-</table>
+## Contact
 
-```text
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
-TRUST BUT VERIFY: SYSTEM ARCHITECT COLEMAN WILLIS 
-IDENTITY RATIFIED - ZERO TRUST COMPLIANT
------BEGIN PGP SIGNATURE-----
-[ENCRYPTED HEX KEY BLOCK]
------END PGP SIGNATURE-----
-```
-
-<p align="center">
-  <i>“Engineering Resilience for the Tactical Edge.”</i>
-</p>
+- Location: Aurora, Colorado
+- Email: [colemanwillis@blackglasscontinuum.com](mailto:colemanwillis@blackglasscontinuum.com)
+- Interests: SRE, runtime assurance, AI safety, deterministic observability, distributed systems reliability
